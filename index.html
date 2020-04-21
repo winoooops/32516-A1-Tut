@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Category</title>
+    <!-- 外部调用css文件 -->
     <link rel="stylesheet" href="./public/css/styles.css">
-    <title>Document</title>
 </head>
 <body>
-    <main>
-        <div id="category">
-            <p>this is where the category resides...</p>
-            <a href="./cart.html" target="cart">show cart</a> 
-            <a href="./order.html" target="order">show order</a>
-        </div>
-    
-        <div id="user">
-            <iframe name="cart" src="" frameborder="0" style="width:100%;"></iframe>
-            <iframe name="order" src="" frameborder="0" style="width:100%;"></iframe>
-        </div>
-    </main>
+    <div id="category">
+		<p> This is whre I show the categories.</p>
+	</div>
+
+	<div id="user">
+		<iframe name="cart" src="./cart.html" style="width:100%;"></iframe>
+		<iframe name="order" src="./order.html"  style="width:100%;" ></iframe>
+	</div>
+
+    <!-- 外部调用JavaScript文件 -->
+    <script src="./public/javascript/main.js"></script>
 </body>
 </html>
